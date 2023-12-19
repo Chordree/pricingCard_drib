@@ -1,0 +1,114 @@
+.card {
+    max-width: 500px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    --padding-y: 40px
+    /* --price-theme: #f3847e; */
+} 
+
+.card__startUp {
+    --price-theme: #5a5679;
+   
+}
+
+.card__pro {
+    --price-theme: #f3847e;
+    --padding-y: 70px
+}
+
+.card__enterprise {
+    --price-theme: #47b8e0;
+}
+.card__wrapper {
+    width: 90%;
+    margin: 0 auto;
+    /* see what the above syntax does */
+    padding: var(--padding-y) 10px;
+   
+}
+
+.card__label {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.card__image {
+    max-width: 50px;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 35%;
+    
+    /* margin-left: 35px; */
+    /* i added the margin left myself */
+}
+
+.card__priceLabel {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--price-theme);
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.card__priceFigure {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card__priceDuration {
+    font-size: .8rem;
+    /* margin-left: 0px ; */
+}
+
+.card__benefitsLabel {
+    color: var(--price-theme);
+    text-transform: uppercase;
+    font-size: .9rem;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1.2px;
+}
+
+.card__benefits {
+    padding: 0;
+    list-style: none;
+    /* move the above to the global */
+    padding-left: 15px;
+    font-size: .7rem;
+}
+
+.card__benefit {
+    margin-bottom: 15px;
+}
+
+.card__benefitIcon {
+    width: 12px;
+    height: 12px;
+    background-color: color-mix(
+        in srgb, var(--price-theme), white 40%
+    );
+    padding: 2px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+
+.card__button {
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: var(--price-theme);
+    width: 100%;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+
+}
+/* download the eye dropper extension */
